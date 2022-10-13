@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="/css/style.css"
+      type="text/css"
+      charset="UTF-8"
+    />
+  </head>
+
+  <body>
+    <div class="centre">
+      <div class="container border">
+        <div class="logo">
+          <h1>Adwin Ang</h1>
+        </div>
+        <main>
+          <h2>Personal Details</h2>
+          <section>
+            <div class="grid-container">
+              <div class="grid-item description">
+                <h3>[GET]</h3>
+              </div>
+              <div class="grid-item"><p>/</p></div>
+              <div class="grid-item description">
+                <p>
+                  Response
+                  <br />
+                  Status
+                  <br />
+                  Data
+                </p>
+              </div>
+              <div class="grid-item">
+                <p>JSON</p>
+                <p>200 Accepted</p>
+                <pre><div class="details"><span>{</span>
+  <h4>“RESUME”</h4><span>: </span><p>“<a href="https://adwinang.s3.ap-southeast-1.amazonaws.com/documents/Adwin's+Resume.pdf" download>[DOWNLOAD]</a>”</p>
+  <h4>“COUNTRY”</h4><span>: </span><p>“SINGAPORE”,</p>
+  <h4>“ROLE”</h4><span>: </span><p>“FULL-STACK DEVELOPER”,</p>
+  <h4>“EDUCATION”</h4><span>: </span><p>“DIPLOMA IN IT”,</p>
+  <h4>“SCHOOL”</h4><span>: </span><p>“NGEE ANN POLYTECHNIC”,</p>
+  <h4>“CONTACT”</h4><span>: {</span>
+    <h5>“EMAIL”</h5><span>: </span><p>“ADWINANG@GMAIL.COM”,</p>
+    <h5>“TWITTER”</h5><span>: </span><p>“@ADWINPLAY”,</p>
+    <h5>“LINKEDIN”</h5><span>: </span><p>“ADWIN-ANG”,</p>
+    <h5>“GITHUB”</h5><span>: </span><p>“ADWINANG”,</p>
+  <span>},</span>
+  <h4>“SKILLS”</h4><span>: [</span><p>
+    “REACT”, “JAVASCRIPT”, “TYPESCRIPT”,
+    “EXPRESS JS”, “MONGODB”, “FIREBASE”,
+    “NEXT JS”, “SELENIUM”, “PLAYWRIGHT”
+  </p><span>],</span>
+  <h4>“RECENT_WORK”</h4><span>:[</span>
+    <span>{</span>
+      <h5>“COMPANY”</h5><span>: </span><p>“AEGIR TECHNOLOGIES”,</p>
+      <h5>“START_DATE”</h5><span>: </span><p>“SEP 2020”,</p>
+      <h5>“END_DATE”</h5><span>: </span><p>“”,</p>
+      <h5>“ROLE”</h5><span>: </span><p>“DIRECTOR”,</p>
+    <span>},</span>
+    <span>{</span>
+      <h5>“COMPANY”</h5><span>: </span><p>“STRIKEDECK”,</p>
+      <h5>“START_DATE”</h5><span>: </span><p>“APR 2019”,</p>
+      <h5>“END_DATE”</h5><span>: </span><p>“MAR 2020”,</p>
+      <h5>“ROLE”</h5><span>: </span><p>“QA ENGINEER”,</p>
+    <span>}</span>
+  <span>],</span>
+  <h4>“AVAIL_FREELANCE”</h4><span>: </span><p>TRUE,</p>
+  <h4>“AVAIL_FULLTIME”</h4><span>: </span><p>TRUE,</p>
+<span>}</span>
+</div>
+</pre>
+              </div>
+            </div>
+          </section>
+        </main>
+        <footer>
+          <div id="copyright"></div>
+          <div class="pagination"><p>Page 01 of 01</p></div>
+        </footer>
+      </div>
+    </div>
+    <script>
+      const paragraph = `
+      <p>
+        &copy;${new Date().getFullYear()}
+      </p>
+    `;
+
+      document.getElementById("copyright").innerHTML = paragraph;
+    </script>
+  </body>
+</html>
